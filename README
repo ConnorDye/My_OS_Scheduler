@@ -1,0 +1,13 @@
+Connor Dye / Jeremiah Pino
+
+1.) SRTN would deliver the same turnaround times for workloads like the following: case 1: the next arriving job doesn't come in until the currently scheduled job finishes
+case 2: if the newly arrived jobs burst time is always longer than the currently scheduled job remaining burst time
+
+2.) RR would deliver the same response times for workloads like the following:
+case 1: if all the processes have the same burst time. Here SRTN would be like RR
+as each process would run for a quantum and switch to the next job.
+
+3.) As job lengths increase, response time with SRTN would get larger and larger and take longer and longer. SRTN is gives precedence to shorter burst times, so if all burst times of processes are super long, for example a bunch of background processes that take a long time, response times would be long.
+
+4.) What happens to response time with RR as quantum lengths increase? Can you write an equation that gives the worst-case response time, given N jobs?
+Worst case equation: Response time = (n - 1) x q. This is because if you're at the end of the round robin revolution and theres a long quantum, you will be waiting a very long time.
