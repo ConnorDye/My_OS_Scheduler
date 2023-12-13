@@ -1,5 +1,3 @@
-Connor Dye / Jeremiah Pino
-
 1.) SRTN would deliver the same turnaround times for workloads like the following: case 1: the next arriving job doesn't come in until the currently scheduled job finishes
 case 2: if the newly arrived jobs burst time is always longer than the currently scheduled job remaining burst time
 
